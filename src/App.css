@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #efefef;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'JetBrainsMono', SansSerif;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    flex: 1;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .Pre-title {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .SmallText {
+        font-size: 20px;
+        margin-top: 30px;
+        white-space: pre-wrap;
+    }
+
+    .Title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .Subtitle2 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .Links {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .Page-title {
+        font-family: 'JetBrainsMono', SansSerif;
+        font-size: 100px;
+        margin-left: 60px;
+    }
+    .Flex-container {
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        min-width: 60vw;
+        /*max-width: 60vw;*/
+        padding: 20px;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 481px) {
+    .Pre-title {
+        font-size: 100px;
+        margin-top: 100px;
+    }
+
+    .SmallText {
+        font-size: 20px;
+        margin-top: 30px;
+        white-space: pre-wrap;
+    }
+
+    .Title {
+        font-size: 150px;
+        margin-bottom: 40px;
+    }
+    .Subtitle1 {
+        font-size: 80px;
+    }
+
+    .Subtitle2 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .Links {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+
+    .Page-title {
+        font-family: 'JetBrainsMono';
+        font-size: 100px;
+        margin-left: 60px;
+    }
+    .Flex-container {
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        min-width: 60vw;
+        /*max-width: 60vw;*/
+        padding: 20px;
+        /*flex-wrap: wrap;*/
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 70px;
+    }
+}
+
+.Spacer {
+    flex: 1;
+}
+
+.Footer {
+    text-align: center;
+}
+
+.dropShadow {
+    box-shadow: 0px 3px 8px 0px rgb(0, 0, 0, 0.12);
+}
+
+.noLinkStyle {
+    color: inherit;
+    text-decoration: inherit;
+}

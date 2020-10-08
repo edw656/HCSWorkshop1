@@ -1,0 +1,15 @@
+
+@media (max-width: 480px) {
+    .link {
+        margin-top:3px;
+        margin-bottom:5px;
+        text-align:center;
+    }
+}
+@media (min-width: 481px) {
+    .link {
+        margin-left:45px;
+        margin-right:45px;
+        text-align:center;
+    }
+}

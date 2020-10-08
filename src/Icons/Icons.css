@@ -1,0 +1,31 @@
+#linkedin-icon {
+    fill: #A1A1A1
+}
+#linkedin-icon:hover {
+    fill: #069
+}
+#facebook-icon {
+    fill: #A1A1A1
+}
+#facebook-icon:hover {
+    fill: #3C5A99
+}
+#github-icon {
+    fill: #A1A1A1
+}
+#github-icon:hover {
+    fill: #181616
+}
+.Icon {
+    display: flex;
+    width:50px;
+    height:50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Icons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top:50px
+}

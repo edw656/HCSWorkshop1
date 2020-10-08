@@ -1,0 +1,4 @@
+.Page-title {
+    display:flex;
+    flex-direction:column;
+}

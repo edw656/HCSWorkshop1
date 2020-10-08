@@ -1,0 +1,46 @@
+.Navbar {
+    background-color: #eeeeee;
+}
+@keyframes navbarAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-700px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.Navbar-links {
+    font-family: 'JetBrainsMono', SansSerif;
+    background-color: #eeeeee;
+    margin-top: 0;
+    padding-top:15px;
+    animation: navbarAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@media (max-width: 480px) {
+    .link {
+        margin-left:10px;
+        margin-right:10px;
+        text-align:left;
+    }
+    .Navbar-links {
+        display: flex;
+        flex-direction:column;
+    }
+}
+@media (min-width: 481px) {
+    .link {
+        margin-left:45px;
+        margin-right:45px;
+        text-align:left;
+    }
+    .Navbar-links {
+
+        display: flex;
+        flex-direction:row;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e11e60f.chunk.css",
+    "main.js": "/static/js/main.f3e596d8.chunk.js",
+    "main.js.map": "/static/js/main.f3e596d8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.1e913b38.chunk.js": "/static/js/2.1e913b38.chunk.js",
+    "static/js/2.1e913b38.chunk.js.map": "/static/js/2.1e913b38.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e0383237d2171758226043b156379d3c.js": "/precache-manifest.e0383237d2171758226043b156379d3c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7e11e60f.chunk.css.map": "/static/css/main.7e11e60f.chunk.css.map",
+    "static/js/2.1e913b38.chunk.js.LICENSE.txt": "/static/js/2.1e913b38.chunk.js.LICENSE.txt",
+    "static/media/Atlius.png": "/static/media/Atlius.544c831c.png",
+    "static/media/Confesscord.png": "/static/media/Confesscord.c0cc22b2.png",
+    "static/media/age_display.png": "/static/media/age_display.dea225f7.png",
+    "static/media/ceram_demo.gif": "/static/media/ceram_demo.d5e8a541.gif",
+    "static/media/discord_logo.png": "/static/media/discord_logo.f7571439.png",
+    "static/media/ethnicity_display.png": "/static/media/ethnicity_display.ba702b81.png",
+    "static/media/eureka_polls_demo.gif": "/static/media/eureka_polls_demo.4687b28e.gif",
+    "static/media/filters_display.png": "/static/media/filters_display.19202466.png",
+    "static/media/gender_display.png": "/static/media/gender_display.b9261a6f.png",
+    "static/media/github_logo.png": "/static/media/github_logo.9f026fe1.png",
+    "static/media/insulation_demo.gif": "/static/media/insulation_demo.1c6cfa81.gif",
+    "static/media/kotori.png": "/static/media/kotori.19c6c0bd.png",
+    "static/media/political_display.png": "/static/media/political_display.5d16ecc5.png",
+    "static/media/polls_list.png": "/static/media/polls_list.26012a97.png",
+    "static/media/responses_display.png": "/static/media/responses_display.1edd6f5f.png",
+    "static/media/state_display.png": "/static/media/state_display.0b0fc7bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.1e913b38.chunk.js",
+    "static/css/main.7e11e60f.chunk.css",
+    "static/js/main.f3e596d8.chunk.js"
+  ]
+}

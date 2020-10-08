@@ -1,0 +1,23 @@
+.Copyright {
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+    background-color: #efefef;
+    animation: fadeInAnimationOnly ease 2s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    padding-top:20px;
+    padding-bottom:20px;
+}
+@keyframes fadeInAnimationOnly { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+.Container {
+    flex:1;
+    background-color: #efefef;
+}

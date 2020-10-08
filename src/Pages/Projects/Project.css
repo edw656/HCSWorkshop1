@@ -1,0 +1,13 @@
+@media (max-width: 480px) {
+    .Youtube-embed {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media (min-width: 481px) {
+    .Youtube-embed {
+        width: 1120px;
+        height: 630px;
+    }
+}
